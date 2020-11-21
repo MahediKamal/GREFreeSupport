@@ -748,3 +748,54 @@ textarea{
   border-bottom-left-radius: 20px;
   box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
 }
+
+/*.........................About GRE.........................*/
+.about-gre-title{
+  height: 30px;
+  width: 98%;
+  background-color: rgb(118, 58, 197);
+  color: #dadde9;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: x-large;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
+.about-gre-point-header{
+  height: 30px;
+  /* width: 30%; */
+  width: fit-content;
+  background-color: rgb(77, 238, 131);
+  color: #303963;
+  margin-left: 30px;
+  padding-left: 5px;
+  padding-right: 10px;
+  font-family: cursive;
+  font-size: large;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
+.about-gre-point-description{
+  height: 210px;
+  /* height: fit-content; */
+  width: 70%;
+  background-color: rgb(221, 77, 41);
+  color: #303963;
+  margin-left: 60px;
+  padding-left: 10px;
+  font-family: cursive;
+  font-size: medium;
+  text-align: left;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
