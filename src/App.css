@@ -803,7 +803,6 @@ textarea{
 /*.........................GRE NEWS.........................*/
 .news-background{
   background-color: crimson;
-  text-align: center;
   height: 87vh;
 }
 .news-chard{
@@ -816,6 +815,53 @@ textarea{
   font-family: cursive;
   font-size: x-large;
   text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
+/*.........................GRE tutors.........................*/
+.tutors-background{
+  background-color: crimson;
+  padding-left: 10px;
+  text-align: center;
+}
+.icon-point{
+  font-size: 25px;
+  font-family: cursive;
+  color: #ffffff;
+  float: left;
+}
+.teacher-profile{
+  height: fit-content;
+  width: 95%;
+  background-color: rgb(247, 124, 93);
+  color: #303963;
+  
+  font-family: cursive;
+  font-size: medium;
+  text-align: left;
+  padding-left: 5px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
+.teacher-profile-container{
+  height: fit-content;
+  width: 70%;
+  background-color: rgb(221, 77, 41);
+  color: #303963;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  font-family: cursive;
+  font-size: medium;
+  text-align: left;
+  padding-left: 5px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
