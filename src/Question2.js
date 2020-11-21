@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import qs from './MyImage/gre1.PNG';
 
 class Question2 extends Component{
     constructor(){
@@ -18,7 +19,7 @@ class Question2 extends Component{
         return(
             <div>
                 <div className="question-image-section">
-                    <div className="question-image-container"><img src="/image/gre.PNG" alt="question"/></div>
+                    <div className="question-image-container"><img src={qs} alt="question"/></div>
                 </div>
 
                 <table className="question-description">

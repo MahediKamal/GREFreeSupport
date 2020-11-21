@@ -3,7 +3,10 @@ import './App.css';
 import { Link } from 'react-router-dom';
 import firebase from "./firebase";
 import {v4 as uuidv4} from 'uuid';
-
+import fmg from './MyImage/pageimg.PNG';
+import Typical from 'react-typical'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 // class FrontPage extends Component{
     function FrontPage(){
@@ -44,14 +47,23 @@ import {v4 as uuidv4} from 'uuid';
         return(
             <div className="front-page-background">
                 <div>
-                <img src="/image/homeImg.PNG" alt="question"/>
+                <img src={fmg} alt="question"/>
                 </div>
-                <h1>Grub Every Information</h1>
-                <p>
+                <br/>
+                <h1>
+                    <Typical
+                        steps={[' ', 1000, 'Grub Every Information !', 500]}
+                        loop={Infinity}
+                        wrapper="p"
+                    />
+                </h1>
+                <br/>
+                <p className="para-text">
                     We believe in the life-changing power of learning. For the last 70 years, we’ve been driven by a vision of what’s possible when all people can improve their lives through education. It’s why our uncompromising commitment to equity and fairness is behind everything we do.
                 </p>
+                <br/><br/>
 
-                <table className="front-page-topic-section">
+                <table className="front-page-topic-section grids">
                     <tr>
                         <td>
                             <Link to="/AboutUs/aboutUs">

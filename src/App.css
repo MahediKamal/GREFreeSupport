@@ -561,7 +561,11 @@ textarea{
   background-color: crimson;
   text-align: center;
 }
-
+.para-text{
+  color: #BEBEBE;
+  font-family: cursive;
+  font-size: 25px;
+}
 .front-page-topic-section{
   width: 100%;
   background-color: crimson;
@@ -717,4 +721,30 @@ textarea{
   font-family: cursive;
   font-size: larger;
   color: #ffffff;
+}
+
+/*.........................Animation text.........................*/
+
+
+.animation-text{
+  font-size: 60px;
+  font-family: cursive;
+  color: coral;
+  text-align: center;
+}
+
+/*.........................About us.........................*/
+
+.about-us-box{
+  height: 200px;
+  width: 45%;
+  background-color: rgb(221, 77, 41);
+  color: #303963;
+  margin: auto;
+  font-family: cursive;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
 }
