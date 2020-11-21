@@ -614,7 +614,7 @@ textarea{
 }
 /*.........................Exam center.........................*/
 .exam-center-page{
-  background-color: rgb(214, 217, 230);
+  background-color: crimson;
   font-family: cursive;
 }
 .exam-center-container{
@@ -628,7 +628,7 @@ textarea{
 .exam-center-description{
   height: 250px;
   width: 80%;
-  background-color: rgb(214, 217, 230);
+  background-color: rgb(136, 36, 75);
   color: #303963;
   margin: auto;
   font-family: cursive;
