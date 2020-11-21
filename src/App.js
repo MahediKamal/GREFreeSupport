@@ -14,6 +14,7 @@ import ExamCenter from './ExamCenter'
 import AboutUs from './AboutUs'
 import AboutGRE from './AboutGRE'
 import GRENews from './GRENews'
+import GREPreparationCenter from './GREPreparationCenter'
 import QuestionLoader from './QuestionLoader'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/AboutUs/:aboutUs" component={AboutUs}/>
         <Route path="/AboutGRE/:aboutGRE" component={AboutGRE}/>
         <Route path="/GRENews/:gRENews" component={GRENews}/>
+        <Route path="/GREPreparationCenter/:gREPreparationCenter" component={GREPreparationCenter}/>
         <Route path="/" component={FrontPage}/>
        
       </Switch>

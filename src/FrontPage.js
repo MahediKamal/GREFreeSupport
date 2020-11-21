@@ -107,12 +107,14 @@ import "aos/dist/aos.css";
                     </div>
                 </Link>
                 <br/>
-                <div className="front-page-topic-horizontal-button front-page-simple-button">
-                    <h2>GRE preparation center</h2>
-                    <br/>
-                    Click here to about all available locations in bangladesh .
-                     We have attached all informations you need about each center......
-                </div>
+                <Link to="/GREPreparationCenter/gREPreparationCenter">
+                    <div className="front-page-topic-horizontal-button front-page-simple-button">
+                        <h2>Tutor Information(GRE)</h2>
+                        <br/>
+                        Click here to about all available locations in bangladesh .
+                        We have attached all informations you need about each center......
+                    </div>
+                </Link>
                 <br/>
 
                 {/* ----------------comment section---------------------- */}
