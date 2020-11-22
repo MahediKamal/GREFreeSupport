@@ -11,6 +11,7 @@ import GreWord from './GreWord'
 import GreWordList from './GreWordList'
 import FrontPage from './FrontPage'
 import ExamCenter from './ExamCenter'
+import Comment from './Comment'
 import AboutUs from './AboutUs'
 import AboutGRE from './AboutGRE'
 import GRENews from './GRENews'
@@ -39,6 +40,7 @@ function App() {
         <Route path="/" component={FrontPage}/>
        
       </Switch>
+      <Comment/>
       <Footer/>
     </div>
     </Router>

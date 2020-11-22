@@ -557,6 +557,10 @@ textarea{
 }
 
 /*.........................Front page.........................*/
+.mgs-icon{
+  color: #38301a;
+  margin-right: 3px;
+}
 .front-page-background{
   background-color: crimson;
   text-align: center;

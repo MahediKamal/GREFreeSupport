@@ -7,6 +7,7 @@ import fmg from './MyImage/pageimg.PNG';
 import Typical from 'react-typical'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { AiOutlineMessage } from "react-icons/ai";
 
 // class FrontPage extends Component{
     function FrontPage(){
@@ -117,25 +118,7 @@ import "aos/dist/aos.css";
                 </Link>
                 <br/>
 
-                {/* ----------------comment section---------------------- */}
-                <br/> <br/> <br/> 
-                {/* <input type='text' onChange={(e) => setComments(e.target.value)}/> */}
-                <div className="comment-title">Write yout comment here -</div>
-                <div className="write-comment">
-                    <textarea onChange={(e)=> setdescription(e.target.value)} className="new-comment"/>
-                </div>  
-                    <button onClick={()=> addComment({description,id:uuidv4()})} className="submit-button">
-                        Submit
-                    </button>
-                
-
-                {comments.map((comment)=>(
-                    <div key={comment.id}>
-                        {/* <h2>{comment.title}</h2> */}
-                        <div className="comment-box">{comment.description}</div>
-
-                    </div>
-                ))}
+              
 
 
             </div>
