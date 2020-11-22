@@ -45,7 +45,7 @@ function Comment(){
              return <h1>loading....</h1>
          }
         return(
-            <div className="front-page-background">
+            <div className="comment-page-background">
                 
 
                 {/* ----------------comment section---------------------- */}
