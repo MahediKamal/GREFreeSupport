@@ -763,6 +763,11 @@ textarea{
   border-bottom-left-radius: 20px;
   box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
 }
+.link-icon{
+  color: #38301a;
+  margin-left: 60px;
+  margin-right: 60px;
+}
 
 /*.........................About GRE.........................*/
 .about-gre-title{
