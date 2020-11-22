@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GREFreeSupport/precache-manifest.186ba3b21eddb222be6329c3378406ac.js"
+  "/GREFreeSupport/precache-manifest.c903b46734c178ef669a09be36b22ea0.js"
 );
 
 self.addEventListener('message', (event) => {
