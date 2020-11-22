@@ -52,7 +52,7 @@ import "aos/dist/aos.css";
                 <br/>
                 <h1>
                     <Typical
-                        steps={[' ', 1000, 'Grub Every Information !', 500]}
+                        steps={[' ', 1000, 'welcome to our page !', 500]}
                         loop={Infinity}
                         wrapper="p"
                     />

@@ -22,7 +22,7 @@ class Home extends Component{
                         </tr>
                         <tr>
                             <td><div className="home-button simple-button"><Link to="/GREWordList/grewordlist"><br/><br/>GREWord</Link></div></td>
-                            <td><div className="home-button simple-button"><Link to="/QuestionLoader/questionloader"><br/><br/>About</Link></div></td>
+                            <td><div className="home-button simple-button"><Link to="/AboutUs/aboutUs"><br/><br/>About</Link></div></td>
                         </tr>
                     </table>
                 </div>

@@ -23,7 +23,7 @@ function App() {
     <Router>
     <div className="window">
       <Header/>
-      <SubHeader/>
+      {/* <SubHeader/> */}
       <Switch>
         <Route path="/Awa/:awa" component={Awa}/>
         <Route path="/Calculator/:calculator" component={Calculator}/>
