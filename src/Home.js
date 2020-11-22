@@ -13,11 +13,11 @@ class Home extends Component{
                     <p className="hone-text">You can start from:</p>
                     <table className="home-button-container-table">
                         <tr>
-                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/awa?type=issue"><br/>AWA<br/>(Issue Practice)</a></div></td>
-                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/awa?type=argument"><br/>AWA<br/>(Argument Practice)</a></div></td>
+                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/awa?type=issue" target="_blank"><br/>AWA<br/>(Issue Practice)</a></div></td>
+                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/awa?type=argument " target="_blank"><br/>AWA<br/>(Argument Practice)</a></div></td>
                         </tr>
                         <tr>
-                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/calculator"><br/><br/>Calculator</a></div></td>
+                            <td><div className="home-button simple-button"><a href="https://mahedikamal.github.io/FreeGRESupport/#/calculator" target="_blank"><br/><br/>Calculator</a></div></td>
                             <td><div className="home-button simple-button"><Link to="/QuestionLoader/questionloader"><br/><br/>QuestionLoader</Link></div></td>
                         </tr>
                         <tr>
