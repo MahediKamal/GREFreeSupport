@@ -734,7 +734,22 @@ textarea{
 }
 
 /*.........................About us.........................*/
-
+.img-chard{
+  height: 550px;
+  /* height: fit-content; */
+  width: 70%;
+  background-color: rgb(221, 77, 41);
+  color: #303963;
+  
+  font-family: cursive;
+  font-size: x-large;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 3px 3px 2px rgb(5, 5, 5);
+}
 .about-us-box{
   height: 200px;
   width: 45%;
